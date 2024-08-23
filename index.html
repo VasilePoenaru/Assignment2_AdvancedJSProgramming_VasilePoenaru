@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Data Formatter</title>
+    <style>
+        .student {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Student Data File</h1>
+    <form id="uploadForm">
+        <label for="fileInput">Choose students.txt file:</label>
+        <input type="file" id="fileInput" accept=".txt"><br><br>
+        <button type="button" onclick="formatInfo()">Format the Info</button>
+    </form>
+    <div><p>If you do not find the file "students.txt" on your computer, <a href="https://www.dropbox.com/scl/fi/f2jldb3cm8mmpnda123qs/students.txt?rlkey=o58x38vzytjy1d27gkf8lesqc&dl=0">download it from here</a>.</p></div>
+
+
+    <script src="studentii.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
