@@ -54,7 +54,7 @@ function createStudents(dataArray) {
 
 function displayStudents(students) {
     const container = document.getElementById('students-container');
-    container.innerHTML = '';  // Clear any previous content
+    container.innerHTML = '';  // eliminare continut anterior daca exista
     students.forEach(student => {
         container.innerHTML += student.display();
     });
